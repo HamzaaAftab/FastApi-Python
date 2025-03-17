@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Task Manager</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Section (Add Task) -->
+        <div class="add-task">
+            <h1>Add Task</h1>
+            <input type="text" id="task-title" placeholder="Enter Task Title">
+            <textarea id="task-desc" placeholder="Enter Task Description"></textarea>
+            <button id="add-btn">Add Task</button>
+        </div>
+
+        <!-- Right Section (Task List) -->
+        <div class="task-list">
+            <h1>Tasks</h1>
+            <ul id="task-container"></ul>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
